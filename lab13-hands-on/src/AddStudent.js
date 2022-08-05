@@ -13,7 +13,7 @@ export default function AddStudent(){
     }
 
     const addStudent = () =>{
-        context.addStudent(newStudent.student_number, newStudent.year_of_study, newStudent.gender, newStudent.graduated)
+        context.addStudent(newStudent)
     }
     
     return(
